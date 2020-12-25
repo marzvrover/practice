@@ -114,11 +114,11 @@ require "test/unit"
 class TestMinHeap < Test::Unit::TestCase
 
   def test_min_heap
-    (0...1000).each do ||
+    1000.times do
       heap = MinHeap.new
       values = Array.new
 
-      (0...1000).each do ||
+      1000.times do
         value = rand(-4611686018427387904..4611686018427387903)
         values.push(value)
         heap.add(value)
