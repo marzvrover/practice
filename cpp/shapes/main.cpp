@@ -7,7 +7,7 @@
 void printShape(char* name, Shape& shape);
 
 int main () {
-    Shape *box = new Square(2);
+    Box *box = new Square(2);
     Sphere *sphere = new Sphere(2.3);
 
     printShape((char *)"box", *box);
