@@ -4,5 +4,5 @@ This is just a repo where I either test random things or make short projects to 
 
 ## Organization
 
-I will organize this repo based off of what langauge the practice files are written in.
+I will organize this repo by sorting programming langauges into their own directories.
 
